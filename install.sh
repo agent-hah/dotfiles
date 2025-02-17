@@ -9,7 +9,7 @@ fi
 if [ ! -d "devcontainer" ]; then
   git submodule add https://github.com/dotfiles/.devcontainer home/.devcontainer
   fi
-  
+
 # Get the latest oh-my-zsh
 git submodule init
 git submodule update --recursive --remote
@@ -23,3 +23,12 @@ do
     echo "Copying $source to $target"
     cp -r $source $target
 done
+
+# Copy devcontainer.jsonc to the appropriate location
+devcontainer_source="$root/home/devcontainer/devcontainer.jsonc"
+devcontainer_target="$HOME/.devcontainer.jsonc"
+
+if [ -f "$devcontainer_source" ]; then
+    echo "Copying $devcontainer_source to $devcontainer_target"
+    cp "$devcontainer_source" "$devcontainer_target"
+fi
