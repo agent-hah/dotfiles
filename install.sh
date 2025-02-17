@@ -8,6 +8,8 @@ fi
 # Add devcontainer as submudle if it's not there yet
 if [ ! -d "devcontainer" ]; then
   git submodule add https://github.com/dotfiles/.devcontainer home/.devcontainer
+  fi
+  
 # Get the latest oh-my-zsh
 git submodule init
 git submodule update --recursive --remote
