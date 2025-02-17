@@ -10,14 +10,57 @@
  "customizations": {
      "vscode": {
          "extensions": [
-             "GitHub.copilot"
+            /* include all of the extensions already downloaded in the container */
+            "ms-python.debugpy",
+            "ms-dottnettools.vscode-dotnet-runtime",
+            "ms-vscode.cpptools-extension-pack",
+            "ms-dotnettools.csharp",
+            "ms-dotnettools.csdevkit",
+            "ms-vscode.cmake-tools",
+            "ms-azuretools.vscode-docker",
+            "github.vscode-github-actions",
+            "visualstudioexptteam.vscodeintellicode",
+            "visualstudioexptteam.intellicode-api-usage-examples",
+            "visualstudioexptteam.vscodeintellicode-completions",
+            "ms-dotnettools.vscodeintellicode-csharp",
+            "ms-python.vscode-pylance",
+            "ms-vscode.azure-repos",
+            "github.copilot.chat",
+            "GitHub.copilot",
+            "ms-vscode.cpptools-themes",
+            "github.remotehub",
+            "ms-vscode.remote-repositories",
+            "esbenp.prettier-vscode",
+            "dbaeumer.vscode-eslint",
+            "oderwat.indent-rainbow"
          ]
      },
      "codespaces": {
-         "openFiles": [
-             "codespace.md"
-         ]
+            "extensions": [
+                /* include all of the extensions already downloaded in the container */
+                "ms-python.debugpy",
+                "ms-dottnettools.vscode-dotnet-runtime",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-dotnettools.csharp",
+                "ms-dotnettools.csdevkit",
+                "ms-vscode.cmake-tools",
+                "ms-azuretools.vscode-docker",
+                "github.vscode-github-actions",
+                "visualstudioexptteam.vscodeintellicode",
+                "visualstudioexptteam.intellicode-api-usage-examples",
+                "visualstudioexptteam.vscodeintellicode-completions",
+                "ms-dotnettools.vscodeintellicode-csharp",
+                "ms-python.vscode-pylance",
+                "ms-vscode.azure-repos",
+                "github.copilot.chat",
+                "GitHub.copilot",
+                "ms-vscode.cpptools-themes",
+                "github.remotehub",
+                "ms-vscode.remote-repositories",
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint",
+                "oderwat.indent-rainbow"
+            ]
      }
- },
-  "postCreateCommand": 
+ }
 }
