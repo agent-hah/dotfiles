@@ -7,7 +7,7 @@ fi
 
 # Add devcontainer as submudle if it's not there yet
 if [ ! -d "devcontainer" ]; then
-  git submodule add https://github.com/agent-hah/dotfiles/.devcontainer home/.devcontainer
+  git submodule add https://github.com/agent-hah/dotfiles home/dotfiles
   fi
 
 # Get the latest oh-my-zsh
