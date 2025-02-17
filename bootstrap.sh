@@ -19,9 +19,9 @@ fi
 mkdir -p "$DEVCONTAINER_DIR"
 
 # Create a default devcontainer.json if not present
-if [ ! -f "$DEVCONTAINER_DIR/devcontainer.json" ]; then
-  echo "🛠 Creating default devcontainer.json..."
-  cat <<EOF > "$DEVCONTAINER_DIR/devcontainer.json"
+if [ ! -f "$DEVCONTAINER_DIR/devcontainer.jsonc" ]; then
+  echo "🛠 Creating default devcontainer.jsonc..."
+  cat <<EOF > "$DEVCONTAINER_DIR/devcontainer.jsonc"
 {
   "name": "Basic template",
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
