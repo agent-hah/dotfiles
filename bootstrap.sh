@@ -81,7 +81,8 @@ if [ ! -f "$DEVCONTAINER_DIR/devcontainer.jsonc" ]; then
                 "oderwat.indent-rainbow"
             ]
      }
- }
+ },
+ "postStartCommand": "~/.dotfiles/bootstrap.sh"
 }
 
 EOF
