@@ -4,7 +4,7 @@ echo "🚀 Bootstrapping DevContainer setup..."
 
 # Define paths
 DEVCONTAINER_DIR="$HOME/workspace/.devcontainer"
-DOTFILES_REPO="https://github.com/YOUR_USERNAME/dotfiles.git"
+DOTFILES_REPO="https://github.com/agent-hah/dotfiles.git"
 DOTFILES_DIR="$HOME/.dotfiles"
 
 # Clone dotfiles repo if not already present
